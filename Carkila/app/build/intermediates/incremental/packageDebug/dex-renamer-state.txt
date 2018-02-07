@@ -1,0 +1,7 @@
+#Mon Feb 05 10:42:55 SGT 2018
+base.0=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_eb7b10801a4d806e9e79b72f2873fe626de0f070
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a18b99e61109639d729c5e340b51c8fbc8a179d9\\classes.dex
+base.1=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a18b99e61109639d729c5e340b51c8fbc8a179d9
+file.0=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_eb7b10801a4d806e9e79b72f2873fe626de0f070\\classes.dex

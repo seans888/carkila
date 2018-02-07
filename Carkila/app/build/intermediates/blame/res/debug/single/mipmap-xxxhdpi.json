@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\carkila.png",
+        "source": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\src\\main\\res\\mipmap-xxxhdpi\\carkila.png"
+    },
+    {
+        "merged": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\logo1.png",
+        "source": "C:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo1.png"
+    }
+]

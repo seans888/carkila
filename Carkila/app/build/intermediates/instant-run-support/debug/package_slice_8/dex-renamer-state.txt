@@ -1,0 +1,4 @@
+#Mon Feb 05 10:42:55 SGT 2018
+base.0=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
+renamed.0=classes.dex
+file.0=C\:\\Users\\Martha\\Desktop\\ANDROID\\Carkila\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex
