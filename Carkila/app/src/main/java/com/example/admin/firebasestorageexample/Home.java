@@ -58,11 +58,21 @@ public class Home extends AppCompatActivity {
             }
         });
 
+        messages = (Button) findViewById(R.id.btnMessages);
+        messages.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent j = new Intent(Home.this, Messages.class);
+                startActivity(j);
+                finish();
+            }
+        });
+
         vehicle = (Button) findViewById(R.id.btnVehicle);
         vehicle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent k = new Intent(Home.this, Vehicle.class);
+                Intent k = new Intent(Home.this, Listing.class);
                 startActivity(k);
                 finish();
             }

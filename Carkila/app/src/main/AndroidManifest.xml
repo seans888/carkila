@@ -26,7 +26,8 @@
         <activity android:name=".Map" />
         <activity android:name=".Category" />
         <activity android:name=".Home" />
-        <activity android:name=".VehicleList"></activity>
+        <activity android:name=".Listing" />
+        <activity android:name=".AddListing"></activity>
     </application>
 
 </manifest>
