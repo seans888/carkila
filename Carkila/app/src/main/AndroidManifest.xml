@@ -18,16 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Initial" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".Owner_Resetpass" />
         <activity android:name=".Search" />
         <activity android:name=".Map" />
         <activity android:name=".Category" />
-        <activity android:name=".Home" />
-        <activity android:name=".Listing" />
-        <activity android:name=".AddListing"></activity>
+        <activity android:name=".Owner_Home" />
+        <activity android:name=".Owner_AddVehicle" />
+        <activity android:name=".Owner_Login" />
+        <activity android:name=".Owner_Reg" />
+        <activity android:name=".Owner_Profile" />
+        <activity android:name=".Owner_Vehicles" />
+        <activity android:name=".Owner_UploadImage"></activity>
     </application>
 
 </manifest>

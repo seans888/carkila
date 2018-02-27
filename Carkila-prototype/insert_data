@@ -1,0 +1,33 @@
+<?php
+
+//This script is designed by Android-Examples.com
+//Define your host here.
+$hostname = "mysql.hostinger.in";
+//Define your database username here.
+$username = "u727224026_demo";
+//Define your database password here.
+$password = "1234567890";
+//Define your database name here.
+$dbname = "u727224026_demo";
+ 
+ $con = mysqli_connect($hostname,$username,$password,$dbname);
+ 
+ $name = $_POST['name'];
+ $email = $_POST['email'];
+ $website = $_POST['website'];
+ 
+ 
+ $Sql_Query = "insert into GetDataTable (name,email,website) values ('$name','$email','$website')";
+ 
+ if(mysqli_query($con,$Sql_Query)){
+ 
+ echo 'Data Inserted Successfully';
+ 
+ }
+ else{
+ 
+ echo 'Try Again';
+ 
+ }
+ mysqli_close($con);
+?>
