@@ -45,13 +45,9 @@ public class Owner_UploadImage extends AppCompatActivity {
 
     ProgressDialog progressDialog ;
 
-    String GetImageNameEditText;
-
-    String ImageName = "image_name" ;
-
     String ImagePath = "image_path" ;
 
-    String ServerUploadPath ="https://androidjsonblog.000webhostapp.com/img_upload_to_server.php" ;
+    String ServerUploadPath ="https://carkila.myapc.edu.ph/img_upload_to_server.php" ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,8 +55,6 @@ public class Owner_UploadImage extends AppCompatActivity {
         setContentView(R.layout.activity_owner_upload_image);
 
         imageView = (ImageView)findViewById(R.id.imageView);
-
-        imageName = (EditText)findViewById(R.id.editTextImageName);
 
         SelectImageGallery = (Button)findViewById(R.id.buttonSelect);
 
@@ -95,8 +89,6 @@ public class Owner_UploadImage extends AppCompatActivity {
         UploadImageServer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
-                GetImageNameEditText = imageName.getText().toString();
 
                 ImageUploadToServerFunction();
 
@@ -176,8 +168,6 @@ public class Owner_UploadImage extends AppCompatActivity {
                 ImageProcessClass imageProcessClass = new ImageProcessClass();
 
                 HashMap<String,String> HashMapParams = new HashMap<String,String>();
-
-                HashMapParams.put(ImageName, GetImageNameEditText);
 
                 HashMapParams.put(ImagePath, ConvertImage);
 

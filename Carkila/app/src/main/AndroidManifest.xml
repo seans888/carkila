@@ -30,7 +30,10 @@
         <activity android:name=".Owner_Reg" />
         <activity android:name=".Owner_Profile" />
         <activity android:name=".Owner_Vehicles" />
-        <activity android:name=".Owner_UploadImage"></activity>
+        <activity android:name=".Owner_UploadImage" />
+        <activity android:name=".RenterLogin" />
+        <activity android:name=".Renter_Resetpass" />
+        <activity android:name=".Renter_Home"></activity>
     </application>
 
 </manifest>

@@ -8,13 +8,22 @@
     tools:context="com.example.admin.firebasestorageexample.Owner_Vehicles">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/existLabel"
+        android:text="No Vehicle Listing Yet"
+        android:gravity="center"
+        android:layout_marginBottom="300dp"
+        android:textSize="30sp"/>
+
     <Button
         android:id="@+id/btnAdd"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dip"
         android:background="#A6BED6"
-        android:text="Add Vehicle"
+        android:text="Create New Listing"
         android:textColor="#FFFF"
         android:layout_margin="15dp" />
 

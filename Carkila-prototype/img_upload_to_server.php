@@ -3,7 +3,11 @@
 include 'DatabaseConfig.php';
 
 // Create connection
-$conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
+if ($conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);)
+{
+	echo "Success"
+}else 
+echo "Fail";
  
  if($_SERVER['REQUEST_METHOD'] == 'POST')
  {
@@ -11,9 +15,8 @@ $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
  
  $ImageData = $_POST['image_path'];
  
- $ImageName = $_POST['image_name'];
 
- $GetOldIdSQL ="SELECT id FROM ImageUpload ORDER BY id ASC";
+ $GetOldIdSQL ="SELECT id FROM Vehicle ORDER BY id ASC";
  
  $Query = mysqli_query($conn,$GetOldIdSQL);
  
@@ -24,13 +27,13 @@ $conn = new mysqli($HostName, $HostUser, $HostPass, $DatabaseName);
  
  $ImagePath = "images/$DefaultId.png";
  
- $ServerURL = "https://carkila.000webhostapp.com/$ImagePath";
+ $ServerURL = "https://carkila.myapc.edu.ph/$ImagePath";
  
- $InsertSQL = "insert into ImageUpload (image_path,image_name) values ('$ServerURL','$ImageName')";
+ $InsertSQL = "insert into Vehicle (image_path) values ('$ServerURL')";
  
  if(mysqli_query($conn, $InsertSQL)){
 
- file_put_contents($ImagePath,base64_decode($ImageData));
+ file_put_contents($ImagePath);
 
  echo "Your Image Has Been Uploaded.";
  }
