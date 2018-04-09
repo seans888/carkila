@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        tools:context="com.prototype.carkila.Owner.VehicleListing"
+        android:background="#fff">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/existLabel"
+            android:text="No Vehicle Listing Yet"
+            android:gravity="center"
+            android:layout_marginBottom="300dp"
+            android:textSize="30sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <Button
+            android:id="@+id/addVehicle_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#A6BED6"
+            android:text="Add Vehicle Listing"
+            android:textColor="#FFFF"
+            android:layout_margin="15dp" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#355E80"
+            android:text="Back"
+            android:textColor="#FFFF"
+            android:layout_margin="15dp"      />
+    </LinearLayout>
+
+

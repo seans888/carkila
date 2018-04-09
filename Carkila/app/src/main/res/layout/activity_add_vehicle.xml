@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Owner.AddVehicle">
+
+    <!--Header-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <!--Add Vehicle-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Vehicle"
+                android:textColor="#82BBBF"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Sub-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please fill up the following: "
+                    android:textStyle="bold"
+                    android:textColor="#AAB4B5"/>
+            </LinearLayout>
+
+            <!--Make field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFMake"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Make"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp"/>
+
+            </LinearLayout>
+
+            <!--Model field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFModel"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Model"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp"
+                    />
+
+            </LinearLayout>
+
+            <!--Year field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFYear"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Year"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp"
+                    android:inputType="date"/>
+            </LinearLayout>
+
+            <!--Color field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFColor"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Color"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+
+                <EditText
+                    android:id="@+id/TFCapacity"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Seats"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "20dp"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <!--Engine number field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFEngineNum"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Engine Number"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+            </LinearLayout>
+
+            <!--Chassis Number field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFChassis"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Chassis Number"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+            </LinearLayout>
+
+            <!--Plate Number field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFPlateNum"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Plate Number"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+            </LinearLayout>
+
+            <!--Rental rate field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFRentalRate"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Rental Rate"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+            </LinearLayout>
+
+            <!--Rental rate field-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/TFImage"
+                    android:layout_width="240dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle2"
+                    android:hint="Image"
+                    android:textColor="#000"
+                    android:textColorHint="#C7C7C7"
+                    android:textSize="12dp"
+                    android:layout_marginLeft= "10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/BtnCamera"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_camera_alt_black_24dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Upload image"
+                    android:textStyle="bold"
+                    android:textColor="#AAB4B5"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--Done Button-->
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:text="Done"
+            android:textColor="#fff"
+            android:background="@drawable/buttonstyle1" />
+    </LinearLayout>
+
+</ScrollView>

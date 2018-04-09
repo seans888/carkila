@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context="com.prototype.carkila.RenterAuth.RenterLogin">
+
+        <!--Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="1dp"
+                android:gravity="center">
+
+                <!--Image-->
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logo"
+                    android:textColor="#82BBBF"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                </LinearLayout>
+
+                <!--Email field-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/TFLoginEmailR"
+                        android:layout_width="240dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="E-mail"
+                        android:inputType="textEmailAddress"
+                        android:textColorHint="#C7C7C7"
+                        android:textColor="#000"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "10dp"/>
+
+                </LinearLayout>
+
+                <!--Password-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <EditText
+                        android:id="@+id/TFLoginPasswordR"
+                        android:layout_width="240dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="Password"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "10dp"
+                        android:inputType="date"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Login Button-->
+            <Button
+                android:id="@+id/loginR_btn"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:text="Login"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle1" />
+
+            <Button
+                android:id="@+id/signupRenter_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Not a member? Join now!"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:textColor="#9FA4A6"
+                android:background="@null"/>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>

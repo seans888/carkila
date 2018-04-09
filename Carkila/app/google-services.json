@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "386689440174",
+    "firebase_url": "https://carkila-bb466.firebaseio.com",
+    "project_id": "carkila-bb466",
+    "storage_bucket": "carkila-bb466.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386689440174:android:8c558f6392a26ced",
+        "android_client_info": {
+          "package_name": "com.prototype.carkila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386689440174-1v2f78fkqnm2kqa556st9nv186t6km22.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prototype.carkila",
+            "certificate_hash": "aa5204e349580e7c70ff4fe895931a6ea76323ca"
+          }
+        },
+        {
+          "client_id": "386689440174-9h3b747ejvopmmu282at0p3vuiabg1on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9l6fKTicRq9N8NxwsaDImbwJIvKlKvbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386689440174-9h3b747ejvopmmu282at0p3vuiabg1on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

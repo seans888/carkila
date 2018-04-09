@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.prototype.carkila.RenterAuth.RenterRegistration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!--Logo-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--First Name Text Field-->
+            <EditText
+                android:id="@+id/TFFname"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="First Name"
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Middle Name Text Field-->
+            <EditText
+                android:id="@+id/TFMname"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Middle Name"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Last Name Text Field-->
+            <EditText
+                android:id="@+id/TFLname"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Birthdate Text Field-->
+            <EditText
+                android:id="@+id/TFBirthdate"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Birthdate (mm-dd-yyyy)"
+                android:inputType="date"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Address Text Field-->
+            <EditText
+                android:id="@+id/TFAddress"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Address"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--City Text Field-->
+            <EditText
+                android:id="@+id/TFCity"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="City"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Mobile Number Text Field-->
+            <EditText
+                android:id="@+id/TFMobile"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Gender-->
+            <EditText
+                android:id="@+id/TFGender"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Gender"
+                android:inputType="text"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+               <!-- &lt;!&ndash;Radiobutton&ndash;&gt;
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp">
+
+                    &lt;!&ndash;Female Radio Button&ndash;&gt;
+                    <RadioButton
+                        android:id="@+id/female_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Female"
+                        android:textSize="12dp"
+                        android:textColor="#9FA4A6"
+                        android:buttonTint="#9FA4A6"/>
+
+                    &lt;!&ndash;Male Radio Button&ndash;&gt;
+                    <RadioButton
+                        android:id="@+id/male_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Male"
+                        android:textSize="12dp"
+                        android:textColor="#9FA4A6"
+                        android:buttonTint="#9FA4A6"/>
+
+                </LinearLayout>-->
+
+                <!--spacing-->
+                <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <!--Email Text Field-->
+            <EditText
+                android:id="@+id/TFEmail"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edittextstyle2"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Password Text Field-->
+            <EditText
+                android:id="@+id/TFPassword"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <!--Confirm Password Text Field-->
+            <EditText
+                android:id="@+id/TFConfirmPassword"
+                android:layout_width="220dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle2"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:textColorHint="#C7C7C7"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By registering, I agree to CARKILA's Terms and Conditions and Privacy Policy"
+                android:textColor="#9FA4A6"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/register_btn"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:text="Register"
+                android:background="@drawable/buttonstyle1"
+                android:layout_marginBottom="10sp"
+                android:textColor="#ffff"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+

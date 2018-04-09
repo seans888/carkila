@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        tools:context="com.prototype.carkila.Renter.TripDetails">
+
+        <!--Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp">
+
+                <!--Add Vehicle-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Trip Details"
+                    android:textColor="#82BBBF"
+                    android:textSize="25dp"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--Sub-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please fill up the following: "
+                        android:textStyle="bold"
+                        android:textColor="#AAB4B5"/>
+                </LinearLayout>
+
+                <!--Destination field-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/TFDestination"
+                        android:layout_width="240dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="Destination"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "10dp"/>
+
+                </LinearLayout>
+
+                <!--Pickup location field-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/TFPickup"
+                        android:layout_width="240dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="Pickup Location"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "10dp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <!--Start date field-->
+                    <EditText
+                        android:id="@+id/TFSDate"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="Start Date"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "15dp"
+                        android:inputType="date"/>
+
+                    <!--End date field-->
+                    <EditText
+                        android:id="@+id/TFEDate"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="End Date"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "40dp"
+                        android:inputType="date"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+
+                    <!--Start Time field-->
+                    <EditText
+                        android:id="@+id/TFSTime"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="Start Time"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "15dp"
+                        android:inputType="time"/>
+
+                    <!--End Time field-->
+                    <EditText
+                        android:id="@+id/TFETime"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="End Time"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "40dp"
+                        android:inputType="time"/>
+                </LinearLayout>
+
+                <!--Passenger count field-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp">
+                    <EditText
+                        android:id="@+id/TFPassenger"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/edittextstyle2"
+                        android:hint="PAX"
+                        android:textColor="#000"
+                        android:textColorHint="#C7C7C7"
+                        android:textSize="12dp"
+                        android:layout_marginLeft= "10dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!--Done Button-->
+            <Button
+                android:id="@+id/request_btn"
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonstyle1"
+                android:text="Send Request"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+    </ScrollView>
